@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+
+.navbar-nav {
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item:hover {
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: black;
+
+}
+
+.nav-item:hover .nav-link{
+  color: white;
+}
+
+.nav-link {
+  color: black;
+}
+
+
+/* Profile */
+
+section.profile {
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+section.profile img {
+  clip-path: circle(50%);
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#button button {
+  font-weight: 600;
+  transition: all 300ms ease;
+  width: 6rem;
+}
+
+
+/* Education */
+
+section.education ul li h5{
+  width:fit-content;
+  padding: .5rem;
+  background-color: darkgrey;
+  border-radius: .5rem;
+}
+
+section.education ul li button{
+  padding: 0 5px;
+}
+
+
+/* Experience*/
+/* section.experince > div{
+  position: relative;
+} */
+
+section.experience img{
+  display: block;
+  width: 50%;
+  margin: auto;
+  transition: all .5s ease;
+  
+}
+
+section.experience .dv1:hover img{
+  transform: matrix(1.5, 0, 0, 1.5, 0, -110);
+  z-index: 1;
+}
+
+.dv1{
+  position: relative;
+}
+
+.dv2{
+  position: absolute;
+  display: none;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  width:max-content;
+  /* height: 20%; */
+  border-radius: 1rem;;
+  z-index:1;
+  background-color: transparent;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 0 1em;
+  margin: 0;
+  border: 1px solid;
+
+}
+
+section.experience .dv1:hover .dv2{
+  display: block;
+}
+
+.dv2 p{
+  display: block;
+  margin: 0;
+}
+
+.dv2 hr{
+  margin: 2px;
+}
+
+
+/* project */
+
+
+
+.project_container>div>div{
+  overflow: hidden;
+  border: 1px solid;
+  border-radius: 1em;
+  text-align: center;
+  transition: all .3s;
+
+  a{
+    margin: .5em 0;
+  }
+}
+
+.project_container>div>div:hover{
+  transform: scale(1.1);
+}
+
+.project_container img{
+  width: 100%;
+  height:200px;
+}
+
+
+/* contact */
+section.contact{
+  width: 60vw;
+
+}
+
+
+section.contact img{
+  width:20%;
+}
+
+section.contact a{
+  text-decoration: none;
+  margin-left: 5px;
+
+}
+
+section.contact a.btn{
+  padding: .5em;
+}
+
+
+/* footer */
+footer nav{
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  font-weight: 800;
+}
+
+footer a{
+  text-transform: uppercase;
+}
+
+footer .nav-link{
+  font-size: 1.2em;
+}

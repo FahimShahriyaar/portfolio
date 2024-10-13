@@ -1,0 +1,163 @@
+[
+    {
+        "name": "c",
+        "filename": "c",
+        "type":"programming",
+        "experience":"maven",
+        "visible":true
+    },
+    {
+        "name": "c++",
+        "filename": "c++",
+        "type":"programming",
+        "experience":"maven",
+        "visible":true
+    },
+    {
+        "name": "c#",
+        "filename": "csharp",
+        "type":"programming",
+        "experience":"novice",
+        "visible":true
+    },
+    {
+        "name": "java",
+        "filename": "java",
+        "type":"programming",
+        "experience":"maven",
+        "visible":true
+    },
+    {
+        "name": "python",
+        "filename": "python",
+        "type":"programming",
+        "experience":"maven",
+        "visible":true
+    },
+    {
+        "name": "html",
+        "filename": "html",
+        "type":"web",
+        "experience":"maven",
+        "visible":true
+    },
+    {
+        "name": "css",
+        "filename": "css",
+        "type":"web",
+        "experience":"maven",
+        "visible":true
+    },
+    {
+        "name": "bootstrap",
+        "filename": "bootstrap",
+        "type":"web",
+        "experience":"moderate",
+        "visible":true
+    },
+    {
+        "name": "tailwind css",
+        "filename": "tailwindcss",
+        "type":"web",
+        "experience":"moderate",
+        "visible":false
+    },
+    {
+        "name": "javascript",
+        "filename": "javascript",
+        "type":"web",
+        "experience":"maven",
+        "visible":true
+    },
+    {
+        "name": "react js",
+        "filename": "reactjs",
+        "type":"web",
+        "experience":"moderate",
+        "visible":true
+    },
+    {
+        "name": "next js",
+        "filename": "nextjs",
+        "type":"web",
+        "experience":"moderate",
+        "visible":false
+    },
+    {
+        "name": "vue js",
+        "filename": "vuejs",
+        "type":"web",
+        "experience":"moderate",
+        "visible":false
+    },
+    {
+        "name": "angular js",
+        "filename": "angularjs",
+        "type":"web",
+        "experience":"moderate",
+        "visible":false
+    },
+    {
+        "name": "node js",
+        "filename": "nodejs",
+        "type":"server programming",
+        "experience":"moderate",
+        "visible":true
+    },
+    {
+        "name": "express js",
+        "filename": "expressjs",
+        "type":"server programming",
+        "experience":"moderate",
+        "visible":true
+    },
+    {
+        "name": "php",
+        "filename": "php",
+        "type":"server programming",
+        "experience":"moderate",
+        "visible":true
+    },
+    {
+        "name": "laravel",
+        "filename": "laravel",
+        "type":"server programming",
+        "experience":"novice",
+        "visible":false
+    },
+    {
+        "name": "sass",
+        "filename": "sass",
+        "type":"CSS Plugin",
+        "experience":"maven",
+        "visible":true
+    },
+    {
+        "name": "jquery",
+        "filename": "jquery",
+        "type":"web",
+        "experience":"maven",
+        "visible":true
+    },
+    {
+        "name": "mysql",
+        "filename": "mysql",
+        "type":"database",
+        "experience":"maven",
+        "visible":true
+    },
+    {
+        "name": "microsoft sql server",
+        "filename": "mssqlserver",
+        "type":"database",
+        "experience":"maven",
+        "visible":true
+    },
+    {
+        "name": "mongodb",
+        "filename": "mongodb",
+        "type":"database",
+        "experience":"moderate",
+        "visible":true
+    }
+]

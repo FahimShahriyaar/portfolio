@@ -1,0 +1,29 @@
+[
+    {
+        "title":"Car Racing",
+        "type": "Web Game",
+        "tools": "HTML, CSS, Javascript, JQuery",
+        "info": "Demo Project",
+        "github_link":"https://github.com/FahimShahriyaar/Car-Racing.git",
+        "thumbnail":"car.jpg",
+        "published":true
+    },
+    {
+        "title":"Card",
+        "type": "Web Game",
+        "tools": "HTML, CSS, Javascript, JQuery",
+        "info": "Future Project",
+        "github_link":"",
+        "thumbnail":"card.jpg",
+        "published":false
+    },
+    {
+        "title":"E-Ticket",
+        "type": "Railway Ticket Reservation",
+        "tools": "HTML, CSS, Javascript, React, Node, MongoDB",
+        "info":"Future Project",
+        "github_link":"",
+        "thumbnail":"train.jpg",
+        "published":false
+    }
+]
