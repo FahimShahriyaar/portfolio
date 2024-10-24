@@ -1,21 +1,23 @@
 [
     {
-        "title":"Car Racing",
+        "title":"Furious Car",
         "type": "Web Game",
         "tools": "HTML, CSS, Javascript, JQuery",
         "info": "Demo Project",
-        "github_link":"https://github.com/FahimShahriyaar/Car-Racing.git",
+        "github_link":"https://github.com/FahimShahriyaar/Furious-Car",
+        "live_link":"https://furiouscar.netlify.app",
         "thumbnail":"car.jpg",
         "published":true
     },
     {
-        "title":"Card",
+        "title":"Royal Deck",
         "type": "Web Game",
         "tools": "HTML, CSS, Javascript, JQuery",
         "info": "Future Project",
-        "github_link":"",
+        "github_link":"https://github.com/FahimShahriyaar/Royal-Deck",
+        "live_link":"https://royaldeck.netlify.app",
         "thumbnail":"card.jpg",
-        "published":false
+        "published":true
     },
     {
         "title":"E-Ticket",
@@ -23,6 +25,7 @@
         "tools": "HTML, CSS, Javascript, React, Node, MongoDB",
         "info":"Future Project",
         "github_link":"",
+        "live_link":"",
         "thumbnail":"train.jpg",
         "published":false
     }
