@@ -51,17 +51,15 @@ function hash(obj) {
     const maindiv = document.querySelector('.project_container');
 
     for (let j = 0; j < obj.length; j++){
-        const x= tmp[j].published?['','']:['disabled','opacity-75'];
+        const x= tmp[j].published?['','']:['disabled','opacity-25'];
         const dv = document.createElement('div');
         dv.setAttribute('class',`col-sm-4 col-10 ${x[1]}`)
-        dv.innerHTML=`<div><img src="assets/${tmp[j].thumbnail}" alt="${tmp[j].title}">                    <h3>${tmp[j].title}</h3>
+        dv.innerHTML=`<div><img src="assets/${tmp[j].thumbnail}" alt="${tmp[j].title}">                    
+                    <h3>${tmp[j].title}</h3>
                     <p class="m-0">Type: ${tmp[j].type}</p>
                     <p class="m-0">Tools: ${tmp[j].tools}</p>
-                    ${tmp[j].published?
-                    '<a href="${tmp[j].github_link}" target="_blank" type="button" class="btn btn-outline-dark ${x[0]}">Github</a>\
-                    <a href="${tmp[j].live_link}" target="_blank" type="button" class="btn btn-outline-dark ${x[0]}">Live</a>'
-                    :'<a type="button" class="btn btn-outline-dark disabled ignore">Future Project</a>'
-                    }
+                    <a href="${tmp[j].github_link}" target="_blank" type="button" class="btn btn-outline-dark ${x[0]}">Github</a>\
+                    <a href="${tmp[j].live_link}" target="_blank" type="button" class="btn btn-outline-dark ${x[0]}">Live</a>
                     </div>`
         maindiv.appendChild(dv);
     }             
